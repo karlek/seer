@@ -3,13 +3,9 @@ WIP
 This project is a *work in progress*. The implementation is *incomplete* and
 subject to change. The documentation can be inaccurate.
 
-srs
-===
-srs is a spaced repetition system library written in go.
-
-Name
-----
-The name will change, srs sounds so boring...
+seer
+====
+seer is a spaced repetition system library written in go.
 
 API documentation
 -----------------

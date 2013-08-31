@@ -9,7 +9,7 @@ import (
 
 var (
 	// Homework filename.
-	filename = os.Getenv("GOPATH") + "/src/github.com/karlek/srs/cmd/alpha/alpha.json"
+	filename = os.Getenv("GOPATH") + "/src/github.com/karlek/seer/cmd/alpha/alpha.json"
 )
 
 // Error wrapper.

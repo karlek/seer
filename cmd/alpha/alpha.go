@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/karlek/srs"
+	"github.com/karlek/seer"
 )
 
 var (

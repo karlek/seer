@@ -22,7 +22,7 @@ func main() {
 
 // Learn Greek alphabet.
 func alphabet() (err error) {
-	h, err := srs.Open(filename)
+	h, err := seer.Open(filename)
 	if err != nil {
 		return err
 	}

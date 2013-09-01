@@ -9,7 +9,7 @@ seer is a spaced repetition system library written in go.
 
 API documentation
 -----------------
-http://godoc.org/github.com/karlek/srs
+http://godoc.org/github.com/karlek/seer
 
 Public domain
 -------------

@@ -1,5 +1,5 @@
-// Package srs implements generic spaced repetition system functions.
-package srs
+// Package seer implements generic spaced repetition system functions.
+package seer
 
 import (
 	"encoding/json"

@@ -2,15 +2,21 @@ package main
 
 import (
 	"log"
-	"os"
 
 	"github.com/karlek/seer"
+	"github.com/mewkiz/pkg/goutil"
 )
 
-var (
-	// Homework filename.
-	filename = os.Getenv("GOPATH") + "/src/github.com/karlek/seer/cmd/alpha/alpha.json"
-)
+// Homework filename.
+var filename string
+
+func init() {
+	var err error
+	filename, err = goutil.SrcDir("github.com/karlek/seer/cmd/alpha/alpha.json")
+	if err != nil {
+		log.Fatalln(err)
+	}
+}
 
 // Error wrapper.
 func main() {

@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"path"
 
 	"github.com/karlek/seer"
 	"github.com/mewkiz/pkg/goutil"
@@ -11,11 +12,11 @@ import (
 var filename string
 
 func init() {
-	var err error
-	filename, err = goutil.SrcDir("github.com/karlek/seer/cmd/alpha/alpha.json")
+	dir, err := goutil.SrcDir("github.com/karlek/seer/cmd/alpha")
 	if err != nil {
 		log.Fatalln(err)
 	}
+	filename = path.Join(dir, "alpha.json")
 }
 
 // Error wrapper.

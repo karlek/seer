@@ -1,0 +1,48 @@
+{
+	"Vocabs": [
+		{
+			"Question": "ㅁ",
+			"Answer": "m"
+		},
+		{
+			"Question": "ㄴ",
+			"Answer": "n"
+		},
+		{
+			"Question": "ㄹ",
+			"Answer": "l"
+		},
+		{
+			"Question": "ㅏ",
+			"Answer": "a"
+		},
+		{
+			"Question": "ㅑ",
+			"Answer": "ya"
+		},
+		{
+			"Question": "ㅓ",
+			"Answer": "u"
+		},
+		{
+			"Question": "ㅕ",
+			"Answer": "yu"
+		},
+		{
+			"Question": "ㅗ",
+			"Answer": "o"
+		},
+		{
+			"Question": "ㅛ",
+			"Answer": "yo"
+		},
+		{
+			"Question": "ㅡ",
+			"Answer": "eu"
+		},
+		{
+			"Question": "ㅣ",
+			"Answer": "i"
+		}
+	]
+}

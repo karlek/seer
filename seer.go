@@ -54,11 +54,10 @@ type Vocab struct {
 
 // save updates the homework file after a quiz.
 func (h *Homework) save() (err error) {
-	buf, err := json.Marshal(h)
+	buf, err := json.MarshalIndent(h, "", "\t")
 	if err != nil {
 		return err
 	}
-
 	err = ioutil.WriteFile(h.path, buf, 0777)
 	if err != nil {
 		return err

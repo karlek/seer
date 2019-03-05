@@ -1,16 +1,60 @@
 {
 	"Vocabs": [
 		{
-			"Question": "ㅁ",
-			"Answer": "m"
+			"Question": "ㄱ",
+			"Answer": "g,k"
 		},
 		{
 			"Question": "ㄴ",
 			"Answer": "n"
 		},
 		{
+			"Question": "ㄷ",
+			"Answer": "d,t"
+		},
+		{
 			"Question": "ㄹ",
-			"Answer": "l"
+			"Answer": "l,r"
+		},
+		{
+			"Question": "ㅁ",
+			"Answer": "m"
+		},
+		{
+			"Question": "ㅂ",
+			"Answer": "b,p"
+		},
+		{
+			"Question": "ㅅ",
+			"Answer": "s"
+		},
+		{
+			"Question": "ㅇ",
+			"Answer": ",ng"
+		},
+		{
+			"Question": "ㅈ",
+			"Answer": "j,z"
+		},
+		{
+			"Question": "ㅊ",
+			"Answer": "ch"
+		},
+		{
+			"Question": "ㅋ",
+			"Answer": "k"
+		},
+		{
+			"Question": "ㅌ",
+			"Answer": "t"
+		},
+		{
+			"Question": "ㅍ",
+			"Answer": "p,f"
+		},
+		{
+			"Question": "ㅎ",
+			"Answer": "h"
 		},
 		{
 			"Question": "ㅏ",
@@ -22,11 +66,11 @@
 		},
 		{
 			"Question": "ㅓ",
-			"Answer": "u"
+			"Answer": "eo"
 		},
 		{
 			"Question": "ㅕ",
-			"Answer": "yu"
+			"Answer": "yeo"
 		},
 		{
 			"Question": "ㅗ",
@@ -35,6 +79,14 @@
 		{
 			"Question": "ㅛ",
 			"Answer": "yo"
+		},
+		{
+			"Question": "ㅜ",
+			"Answer": "u"
+		},
+		{
+			"Question": "ㅠ",
+			"Answer": "yu"
 		},
 		{
 			"Question": "ㅡ",

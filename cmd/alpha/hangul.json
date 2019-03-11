@@ -1,6 +1,10 @@
 {
 	"Vocabs": [
 		{
+			"Question": "Basic consonants (14)",
+			"Answer": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ"
+		},
+		{
 			"Question": "ㄱ",
 			"Answer": "g,k"
 		},
@@ -55,6 +59,10 @@
 		{
 			"Question": "ㅎ",
 			"Answer": "h"
+		},
+		{
+			"Question": "Basic vowels (10)",
+			"Answer": "ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ"
 		},
 		{
 			"Question": "ㅏ",

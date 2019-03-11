@@ -34,13 +34,21 @@ func Open(filePath string) (h *Homework, err error) {
 
 	/// Might bug
 	err = json.Unmarshal(buf, h)
-	return h, err
+	if err != nil {
+		return nil, err
+	}
+	h.Order = make([]int, len(h.Vocabs))
+	for i := range h.Vocabs {
+		h.Order = append(h.Order, i)
+	}
+	return h, nil
 }
 
 // Homework is a list of vocabularies. It also contains the path to the homework
 // file.
 type Homework struct {
 	Vocabs []Vocab // List of vocabularies to train on.
+	Order  []int   `json:"-"` // Vocabulary order during quiz, by index.
 	path   string  // Path to the homework file.
 }
 
@@ -80,7 +88,8 @@ func (h *Homework) Quiz() (err error) {
 
 	// Loop through all vocabulary items and ask the user to answer the
 	// questions.
-	for key, v := range h.Vocabs {
+	for _, key := range h.Order {
+		v := h.Vocabs[key]
 		// If review date is in the future continue, and save the date
 		// to show the user when the next update is if all review dates are in
 		// the future.
@@ -145,19 +154,17 @@ func (h *Homework) Quiz() (err error) {
 
 // Reset will reset all levels and review dates for a homework.
 func (h *Homework) Reset() (err error) {
-	for key, _ := range h.Vocabs {
+	for key := range h.Vocabs {
 		h.Vocabs[key].Level = 0
 		h.Vocabs[key].ReviewDate = 0
 	}
 	return h.save()
 }
 
-/// This function is incomplete since it will save the homework in the
-/// randomized order.
 // RandomizeOrder randomizes the vocabularies order.
 func (h *Homework) RandomizeOrder() {
-	for i := range h.Vocabs {
+	for i := range h.Order {
 		j := rand.Intn(i + 1)
-		h.Vocabs[i], h.Vocabs[j] = h.Vocabs[j], h.Vocabs[i]
+		h.Order[i], h.Order[j] = h.Order[j], h.Order[i]
 	}
 }

@@ -1,0 +1,180 @@
+{
+	"Vocabs": [
+		{
+			"Question": "Basic consonants (14)",
+			"Answer": "ㄱ ㄴ ㄷ ㄹ ㅁ ㅂ ㅅ ㅇ ㅈ ㅊ ㅋ ㅌ ㅍ ㅎ"
+		},
+		{
+			"Question": "ㄱ",
+			"Answer": "g,k"
+		},
+		{
+			"Question": "ㄴ",
+			"Answer": "n"
+		},
+		{
+			"Question": "ㄷ",
+			"Answer": "d,t"
+		},
+		{
+			"Question": "ㄹ",
+			"Answer": "r,l"
+		},
+		{
+			"Question": "ㅁ",
+			"Answer": "m"
+		},
+		{
+			"Question": "ㅂ",
+			"Answer": "b,p"
+		},
+		{
+			"Question": "ㅅ",
+			"Answer": "s,t"
+		},
+		{
+			"Question": "ㅇ",
+			"Answer": ",ng"
+		},
+		{
+			"Question": "ㅈ",
+			"Answer": "j,t"
+		},
+		{
+			"Question": "ㅊ",
+			"Answer": "ch,t"
+		},
+		{
+			"Question": "ㅋ",
+			"Answer": "k"
+		},
+		{
+			"Question": "ㅌ",
+			"Answer": "t"
+		},
+		{
+			"Question": "ㅍ",
+			"Answer": "p"
+		},
+		{
+			"Question": "ㅎ",
+			"Answer": "h,t"
+		},
+		{
+			"Question": "Basic vowels (10)",
+			"Answer": "ㅏ ㅑ ㅓ ㅕ ㅗ ㅛ ㅜ ㅠ ㅡ ㅣ"
+		},
+		{
+			"Question": "ㅏ",
+			"Answer": "a"
+		},
+		{
+			"Question": "ㅑ",
+			"Answer": "ya"
+		},
+		{
+			"Question": "ㅓ",
+			"Answer": "eo"
+		},
+		{
+			"Question": "ㅕ",
+			"Answer": "yeo"
+		},
+		{
+			"Question": "ㅗ",
+			"Answer": "o"
+		},
+		{
+			"Question": "ㅛ",
+			"Answer": "yo"
+		},
+		{
+			"Question": "ㅜ",
+			"Answer": "u"
+		},
+		{
+			"Question": "ㅠ",
+			"Answer": "yu"
+		},
+		{
+			"Question": "ㅡ",
+			"Answer": "eu"
+		},
+		{
+			"Question": "ㅣ",
+			"Answer": "i"
+		},
+		{
+			"Question": "Double consonants (5)",
+			"Answer": "ㄲ ㄸ ㅃ ㅆ ㅉ"
+		},
+		{
+			"Question": "ㄲ",
+			"Answer": "kk,k"
+		},
+		{
+			"Question": "ㄸ",
+			"Answer": "tt"
+		},
+		{
+			"Question": "ㅃ",
+			"Answer": "pp"
+		},
+		{
+			"Question": "ㅆ",
+			"Answer": "ss,t"
+		},
+		{
+			"Question": "ㅉ",
+			"Answer": "jj"
+		},
+		{
+			"Question": "Double vowels (11)",
+			"Answer": "ㄲ ㄸ ㅃ ㅆ ㅉ"
+		},
+		{
+			"Question": "ㅐ",
+			"Answer": "ae"
+		},
+		{
+			"Question": "ㅒ",
+			"Answer": "yae"
+		},
+		{
+			"Question": "ㅔ",
+			"Answer": "e"
+		},
+		{
+			"Question": "ㅖ",
+			"Answer": "ye"
+		},
+		{
+			"Question": "ㅘ",
+			"Answer": "wa"
+		},
+		{
+			"Question": "ㅙ",
+			"Answer": "wae"
+		},
+		{
+			"Question": "ㅚ",
+			"Answer": "oe"
+		},
+		{
+			"Question": "ㅟ",
+			"Answer": "wo"
+		},
+		{
+			"Question": "ㅞ",
+			"Answer": "we"
+		},
+		{
+			"Question": "ㅝ",
+			"Answer": "wi"
+		},
+		{
+			"Question": "ㅢ",
+			"Answer": "ui"
+		}
+	]
+}
